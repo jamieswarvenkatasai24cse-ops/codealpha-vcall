@@ -1,0 +1,63 @@
+.whiteboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #000;
+}
+
+.whiteboard-tools {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 15px;
+  background: #1a1a1a;
+  border-bottom: 1px solid #333;
+  flex-wrap: wrap;
+}
+
+.tool-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tool-group label {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.color-picker {
+  width: 50px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slider {
+  width: 100px;
+  cursor: pointer;
+}
+
+.clear-btn {
+  padding: 8px 16px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+  font-size: 14px;
+}
+
+.clear-btn:hover {
+  background: #c0392b;
+}
+
+.whiteboard-canvas {
+  flex: 1;
+  cursor: crosshair;
+  background: #000;
+}

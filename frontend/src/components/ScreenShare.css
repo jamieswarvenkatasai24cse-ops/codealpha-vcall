@@ -1,0 +1,101 @@
+.screen-share-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  background: #000;
+}
+
+.screen-sharing-active {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen-video {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.screen-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.screen-info p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.stop-btn {
+  padding: 8px 16px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.stop-btn:hover {
+  background: #c0392b;
+}
+
+.screen-share-prompt {
+  text-align: center;
+  padding: 40px;
+}
+
+.screen-share-prompt svg {
+  color: #667eea;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.screen-share-prompt h3 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+  color: white;
+}
+
+.screen-share-prompt p {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.start-btn {
+  padding: 12px 30px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.start-btn:hover {
+  background: #764ba2;
+  transform: translateY(-2px);
+}
