@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Real-Time Video Conferencing & Collaboration App
 
 A full-stack web application for real-time video conferencing with advanced collaboration features including screen sharing, file sharing, and collaborative whiteboarding.
@@ -309,3 +310,6 @@ For issues, questions, or suggestions:
 ---
 
 **Happy Coding! 🎉** This project demonstrates modern web development practices and real-time communication technologies used in production applications.
+=======
+# codealpha-vcall
+>>>>>>> 07788e15ddf515578d95ed66d47650d92d320442
